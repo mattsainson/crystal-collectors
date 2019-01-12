@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Crystals Collector Game</title>
+
+    <!-- CSS-->
+    <link rel="stylesheet" href="assets/css/reset.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+
+</head>
+<body>
+    
+    <header><h1>Crystals Collector Game</h1></header>
+
+    <div>
+        <p>You will be given a random number at the start of the game.</p>
+        <p>There are four crystals below. By clicking on a crystal you will add a specific amount of points to your total score.</p>
+        <p>You win the game by matching your total score to random number. You lose the game if your total score goes above the random number.</p>
+        <p>The value of each crystal is hidden from you until you click on it.</p>
+        <p>Each time when the game starts, the game will change the values of each crystal.</p>
+    </div>
+    <div id="targetNum">Target: -</div>
+    <div id="score">Score: -</div>
+    <div id="winslosses">Wins: 0 Losses: 0</div>
+    <div>
+        <img src="assets/images/2078_205_FO_10_FV_MI_760x.jpg" alt="crystal-1" class="crystalimg" id="0">
+        <img src="assets/images/clear-quartz-300x284.jpg" alt="crystal-2" class="crystalimg" id="1">
+        <img src="assets/images/LightsaberCrystal-SWE.png" alt="crystal-3" class="crystalimg" id="2">
+        <img src="assets/images/purple-380x254.jpg" alt="crystal-4" class="crystalimg" id="3">
+    </div>
+
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script type="text/javascript" src="assets/javascript/game.js"></script>
+
+</body>
+</html>
