@@ -42,9 +42,10 @@ var game = {
 
     showPage: function () {
         //do jQuery preso stuff
-        $('#targetNum').html('Target: '+this.targetNum);
-        $('#winslosses').html('Wins: '+this.wins+' Losses: '+this.losses);
-        $('#score').html('Score: '+this.score);
+        $('#targetNum').html(this.targetNum);
+        $('#wins').html('Wins: '+this.wins);
+        $('#losses').html('Losses: '+this.losses);
+        $('#score').html(this.score);
     },
 
     getRndInteger: function (min, max) {
